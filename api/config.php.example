@@ -1,0 +1,7 @@
+<?php
+
+$DBHOST = '127.0.0.1';
+$DBUSER = 'USERNAME';
+$DBPASS = 'PASSWORD';
+$DBNAME = 'Tierpark';
+$DBPORT = '3306';

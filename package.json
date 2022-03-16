@@ -1,0 +1,21 @@
+{
+	"name": "db_engineering",
+	"version": "1.0.0",
+	"description": "Das Backend befindet sich in dem Ordner `api` und das Frontend in dem Ordner `dashboard`.",
+	"main": "index.js",
+	"scripts": {
+		"build": "rm -rf webapp/ && mkdir webapp && cd ./dashboard && npm run build && npm run export && cd .. && cp -R api webapp/api && rm webapp/api/config.php && cp -R dashboard/out/* webapp",
+		"release": "zip -r RELEASE.zip webapp/ sql-scripts/"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/pschroee/dbengineering-tierpark-thuele.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/pschroee/dbengineering-tierpark-thuele/issues"
+	},
+	"homepage": "https://github.com/pschroee/dbengineering-tierpark-thuele#readme"
+}

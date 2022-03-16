@@ -1,0 +1,6 @@
+htdocs/
+dist/
+webapp/
+config.php
+
+RELEASE.zip
