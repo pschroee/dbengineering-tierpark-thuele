@@ -1,7 +1,7 @@
 # DB Engineering Tierpark Thüle
 
 Das Backend befindet sich in dem Ordner `api` und das Frontend in dem Ordner `dashboard`.
-Die Livedemonstration findet sich unter der URL [https://xn--dbengineering-tierpark-thle-63c.de/](https://xn--dbengineering-tierpark-thle-63c.de/).
+Die Livedemonstration findet sich unter der URL [https://dbengineering-tierpark-thüle.de/](https://dbengineering-tierpark-thüle.de/).
 
 ## Verwendete Technologien
 
